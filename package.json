@@ -1,0 +1,24 @@
+{
+  "name": "microblogrestfulapiproject",
+  "version": "1.0.0",
+  "description": "A server for managing blog posts. It handles restful api requests (create, update, read, delete) by accepting JSON requests and responding with JSON responses. The server is written in NodeJS and uses ATLAS MongoDB for saving blog posts. It can be run with a docker-compose file.",
+"main  ": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "rest",
+    "api",
+    "mongo",
+    "docker"
+  ],
+  "author": "May Shavit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  }
+}
